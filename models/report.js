@@ -7,6 +7,7 @@ const reportSchema = new mongoose.Schema({
     },
     status: {
         type: String,
+        enum:
         required: true
     }
 }, {

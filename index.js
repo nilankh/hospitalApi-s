@@ -5,6 +5,7 @@ const mongoose = require('mongoose');
 const app = express();
 const port = 8000;
 
+const db = require('./config/mongoose');
 
 //view engine set
 app.use(expressLayouts);
