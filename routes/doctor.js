@@ -9,4 +9,7 @@ router.get('/login', doctorsController.signIn);
 
 //register handle
 router.post('/register', doctorsController.register);
+
+//sign in Handle
+router.post('/login', doctorsController.doctorlogin);
 module.exports = router;
