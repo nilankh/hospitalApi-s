@@ -1,3 +1,5 @@
+const User = require('../models/User');
+
 
 //this is for sign in
 module.exports.signIn = function(req, res){
@@ -12,3 +14,13 @@ module.exports.signUp = function(req, res){
        title: "register" 
     });
 }
+
+
+
+// get the register data
+
+// module.exports.create = function(req, res){
+//     if(req.body.password != req.body.confirm_password){
+//         req.flash
+//     }
+// }
